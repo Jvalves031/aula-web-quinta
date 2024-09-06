@@ -10,6 +10,7 @@
 <form action="#" methof="post">
 <label for="fnome">Nome:</label>
 <input type="text" name />
+
 <br>
 <p> esta certo disso?</p>
 <input type="radio"
@@ -17,20 +18,42 @@
  <label for="fsim" >Sim</label>
  <input type="radio" id="nao" name="opcao" value="nao">
  <label for="nao">Não</label><br>
+
 <p> Escolha o estilo musical</p>
+
  <input type="checkbox" name="musica1" value="trap"/>
  <label for="trap">Trap</label>
  <input type="checkbox" name="musica2" value="funk"/>
  <label for="funk">Funk</label>
  <input type="checkbox" name="musica3" value="pagode"/>
  <label for="pagode">Pagode</label>
-<input type="submit" value="Enviar"><br>
-<label for="opcoes>VOCÊ CONCORDA?"</label>
-<select id="opcoes" name="opcoes">
+
+
+<label for="opcoes>">VOCÊ CONCORDA?</label>
+<select id="opcoes" name="opcoes" >
     <option value="sim">Sim</option>
     <option value="nao">Não</option>
     <option value="talvez" selected>Talvez</option>
-    </select>
+    </select><br>
+    <br />
+
+    <option value="talvez" selected></option>
+    
+    <br>
+    VOCE CONCORDA?<br>
+    <textarea name="mensagem" rows="10" cols="30">
+
+    </textarea> <br>
+    
+    
+    
+
+    <label for="fsenha">DIGITE SUA SENHA</label><br />
+    <input type="password" name="senha" />
+    <br />
+    <input type="reset" value="Limpar"/>
+    <input type="submit" value="Enviar"/>
+
 </form>
 
 </body>
